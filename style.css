@@ -1,0 +1,57 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #3498db; /* Blue color */
+    padding: 10px;
+    color: white;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 10px;
+}
+
+.navbar li:first-child {
+    margin-left: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Section with photo and information */
+.home-section {
+    display: flex;
+}
+
+.home-section .photo {
+    width: 50%;
+}
+
+.home-section .photo img {
+    width: 100%;
+    height: auto;
+}
+
+.home-section .info {
+    width: 50%;
+    padding: 20px;
+}
+
+/* ... (existing styles) ... */
